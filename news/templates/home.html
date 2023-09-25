@@ -7,11 +7,6 @@ Página Inicial
 {% endblock %}
 
 {% block content %}
-<header class="header">
-    <ul class="header-links">
-        <a href="{% url 'home-page' %}">Home</a>
-    </ul>
-</header>
 {%for new in news%}
 <a class="news-card" href="{% url 'news-details-page' new.id %}">
     <h2 class="news-title">{{new.title}}</h2>
