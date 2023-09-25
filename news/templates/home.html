@@ -13,10 +13,10 @@ Página Inicial
     </ul>
 </header>
 {%for new in news%}
-<h2 class="news-title">{{new.title}}</h2>
-<span class="news-date">{{new.created_at|date:"d/m/Y"}}</span>
-{% if new.image %}
-<img src="{% static new.image.url %}" alt="{{new.title}}">
-{% endif %}
-{% endfor %}
-{% endblock %}
+<a class="news-card" href="{% url 'news-details-page' new.id %}">
+    <h2 class="news-title">{{new.title}}</h2>
+    <span class="news-date">{{new.created_at|date:"d/m/Y"}}</span>
+    {% if new.image %}
+    <img src="{% static new.image.url %}" alt="{{new.title}}" {% endif %} </a>
+    {% endfor %}
+    {% endblock %}
