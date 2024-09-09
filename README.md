@@ -2,7 +2,7 @@
 
 ## Contexto do Projeto
 
-O foco principal deste projeto é, com base nos ensinamentos da **Trybe**, desenvolver uma aplicação web completa utilizando o **Django** e o **Django Rest Framework (DRF)**. A aplicação permitirá que usuários cadastrados possam armazenar e categorizar notícias. O projeto segue a arquitetura **Model-View-Template (MVT)**, facilitando a separação de responsabilidades entre as camadas de dados, apresentação e controle.
+O foco principal deste projeto é, com base nos ensinamentos da **Trybe**, desenvolver uma aplicação web completa utilizando o **Django** e o **Django Rest Framework (DRF)**. A aplicação permite que usuários cadastrados possam armazenar e categorizar notícias. O projeto segue a arquitetura **Model-View-Template (MVT)**, facilitando a separação de responsabilidades entre as camadas de dados, apresentação e controle.
 
 <details>
   <summary>O que é a Trybe?🤔</summary>
